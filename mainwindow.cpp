@@ -60,3 +60,18 @@ void MainWindow::on_pushButton_clicked()
 }
 
 
+
+void MainWindow::on_pushButton_3_clicked()
+{
+     QString username = ui->textEdit->toPlainText();
+     QString password = ui->textEdit_2->toPlainText();
+
+     if (username == "admin" and password == "admin")
+     {
+       userpage = new UserPage(this);
+       userpage->show();
+       return;
+
+     }
+}
+
