@@ -1,6 +1,7 @@
 #ifndef ADMINSEARCHPAGE_H
 #define ADMINSEARCHPAGE_H
-
+#include "userpage.h"
+#include <QMainWindow>
 #include <QDialog>
 
 namespace Ui {
@@ -18,8 +19,11 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+    void on_pushButton_2_clicked();
+
 private:
     Ui::AdminSearchPage *ui;
+    UserPage *userpage;
 };
 
 #endif // ADMINSEARCHPAGE_H

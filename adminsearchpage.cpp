@@ -1,6 +1,6 @@
 #include "adminsearchpage.h"
 #include "ui_adminsearchpage.h"
-#include "userpage.h"
+
 #include "mainwindow.h"
 #include <QMessageBox>
 #include <QFile>
@@ -37,11 +37,19 @@ void AdminSearchPage::on_pushButton_clicked()
     }
     if (file.open(QIODevice::ReadOnly))
     {
-
+        userpage = new UserPage(this);
+        userpage->show();
         return;
+
 
     }
 
 
+}
+
+
+void AdminSearchPage::on_pushButton_2_clicked()
+{
+    close();
 }
 

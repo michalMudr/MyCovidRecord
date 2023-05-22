@@ -1,6 +1,7 @@
 #include "userpage.h"
 #include "ui_userpage.h"
 #include "mainwindow.h"
+#include "adminsearchpage.h"
 
 UserPage::UserPage(QWidget *parent) :
     QDialog(parent),

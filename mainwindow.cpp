@@ -3,7 +3,7 @@
 #include <QMessageBox>
 #include <QFile>
 #include <QTextStream>
-#include  <QCoreApplication>
+#include <QCoreApplication>
 #include <QMessageBox>
 
 QString uname;

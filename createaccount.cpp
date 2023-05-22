@@ -38,6 +38,7 @@ void createAccount::on_pushButton_2_clicked()
         file.flush();
         file.close();
 }
-
+    QMessageBox::warning(this,"Login Created", "Account created, please login using your details  !!!");
+    close();
 }
 
