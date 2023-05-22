@@ -68,8 +68,8 @@ void MainWindow::on_pushButton_3_clicked()
 
      if (username == "admin" and password == "admin")
      {
-       userpage = new UserPage(this);
-       userpage->show();
+       adminsearchpage = new AdminSearchPage(this);
+       adminsearchpage->show();
        return;
 
      }

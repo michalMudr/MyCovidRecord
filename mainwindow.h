@@ -4,7 +4,9 @@
 #include <QMainWindow>
 #include "createaccount.h"
 #include "userpage.h"
+#include "adminsearchpage.h"
 extern QString uname;
+extern QString username;
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -28,5 +30,6 @@ private:
     Ui::MainWindow *ui;
     createAccount *createaccount;
     UserPage *userpage;
+    AdminSearchPage * adminsearchpage;
 };
 #endif // MAINWINDOW_H
