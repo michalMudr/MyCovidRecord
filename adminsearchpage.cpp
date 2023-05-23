@@ -1,18 +1,18 @@
 #include "adminsearchpage.h"
 #include "ui_adminsearchpage.h"
-
 #include "mainwindow.h"
 #include <QMessageBox>
 #include <QFile>
 #include <QTextStream>
-#include  <QCoreApplication>
-#include <QMessageBox>
+#include <QCoreApplication>
+
 
 AdminSearchPage::AdminSearchPage(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::AdminSearchPage)
 {
     ui->setupUi(this);
+    this->setWindowTitle("Admin search page");
 }
 
 AdminSearchPage::~AdminSearchPage()
@@ -35,14 +35,7 @@ void AdminSearchPage::on_pushButton_clicked()
         QMessageBox::warning(this,"Login", "Username does not exist !!!");
         return;
     }
-    if (file.open(QIODevice::ReadOnly))
-    {
-        userpage = new UserPage(this);
-        userpage->show();
-        return;
 
-
-    }
 
 
 }

@@ -1,8 +1,8 @@
 #ifndef ADMINSEARCHPAGE_H
 #define ADMINSEARCHPAGE_H
-#include "userpage.h"
 #include <QMainWindow>
 #include <QDialog>
+
 
 namespace Ui {
 class AdminSearchPage;
@@ -23,7 +23,7 @@ private slots:
 
 private:
     Ui::AdminSearchPage *ui;
-    UserPage *userpage;
+
 };
 
 #endif // ADMINSEARCHPAGE_H

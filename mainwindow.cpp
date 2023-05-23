@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "adminsearchpage.h"
 #include <QMessageBox>
 #include <QFile>
 #include <QTextStream>
@@ -12,6 +13,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    this->setWindowTitle("User Login");
 }
 
 MainWindow::~MainWindow()

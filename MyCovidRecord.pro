@@ -11,6 +11,7 @@ CONFIG += c++17
 SOURCES += \
     adminsearchpage.cpp \
     createaccount.cpp \
+    dialogadmin.cpp \
     main.cpp \
     mainwindow.cpp \
     userpage.cpp
@@ -18,12 +19,14 @@ SOURCES += \
 HEADERS += \
     adminsearchpage.h \
     createaccount.h \
+    dialogadmin.h \
     mainwindow.h \
     userpage.h
 
 FORMS += \
     adminsearchpage.ui \
     createaccount.ui \
+    dialogadmin.ui \
     mainwindow.ui \
     userpage.ui
 
