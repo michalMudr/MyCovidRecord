@@ -35,7 +35,12 @@ void AdminSearchPage::on_pushButton_clicked()
         QMessageBox::warning(this,"Login", "Username does not exist !!!");
         return;
     }
-
+    if(file.exists())
+    {
+        dialogadmin = new DialogAdmin(this);
+        dialogadmin->show();
+        return;
+    }
 
 
 }

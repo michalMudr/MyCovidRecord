@@ -31,5 +31,6 @@ private:
     createAccount *createaccount;
     UserPage *userpage;
     AdminSearchPage * adminsearchpage;
+
 };
 #endif // MAINWINDOW_H

@@ -1,6 +1,6 @@
 #ifndef DIALOGADMIN_H
 #define DIALOGADMIN_H
-
+#include <QMainWindow>
 #include <QDialog>
 
 namespace Ui {
@@ -17,6 +17,7 @@ public:
 
 private:
     Ui::DialogAdmin *ui;
+
 };
 
 #endif // DIALOGADMIN_H

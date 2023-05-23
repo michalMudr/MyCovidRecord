@@ -1,5 +1,6 @@
 #include "dialogadmin.h"
 #include "ui_dialogadmin.h"
+#include "adminsearchpage.h"
 
 DialogAdmin::DialogAdmin(QWidget *parent) :
     QDialog(parent),

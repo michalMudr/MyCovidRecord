@@ -2,6 +2,7 @@
 #define ADMINSEARCHPAGE_H
 #include <QMainWindow>
 #include <QDialog>
+#include "dialogadmin.h"
 
 
 namespace Ui {
@@ -23,7 +24,7 @@ private slots:
 
 private:
     Ui::AdminSearchPage *ui;
-
+    DialogAdmin * dialogadmin;
 };
 
 #endif // ADMINSEARCHPAGE_H
